@@ -3,7 +3,7 @@
   "version": "0.5.1",
   "description": "Heroicons for Ember.js",
   "keywords": ["ember-addon", "heroicons", "icons", "tailwind"],
-  "repository": "https://github.com/tzellman/ember-heroicons.git",
+  "repository": "https://github.com/jagthedrummer/ember-heroicons.git",
   "license": "MIT",
   "author": "tzellman",
   "directories": {
