@@ -1,9 +1,9 @@
 {
   "name": "@jagthedrummer/ember-heroicons",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "description": "Heroicons for Ember.js",
   "keywords": ["ember-addon", "heroicons", "icons", "tailwind"],
-  "repository": "https://github.com/jagthedrummer/ember-heroicons.git",
+  "repository": "https://github.com/jagthedrummer/ember-heroicons/tree/jeremy/windows-published",
   "license": "MIT",
   "author": "tzellman",
   "directories": {
