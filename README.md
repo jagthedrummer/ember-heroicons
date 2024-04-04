@@ -20,7 +20,7 @@ This addon provides access to the [heroicons](https://heroicons.com/) SVG icons 
 ## Installation
 
 ```
-ember install ember-heroicons
+ember install @jagthedrummer/ember-heroicons
 ```
 
 ## Demo
