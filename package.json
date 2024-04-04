@@ -1,6 +1,6 @@
 {
   "name": "@jagthedrummer/ember-heroicons",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Heroicons for Ember.js",
   "keywords": ["ember-addon", "heroicons", "icons", "tailwind"],
   "repository": "https://github.com/jagthedrummer/ember-heroicons.git",
