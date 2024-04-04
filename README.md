@@ -1,5 +1,14 @@
 # ember-heroicons
 
+> [!NOTE]
+> This is a temporary fork of the official `ember-heroicons` package. This fork contains
+> a bug fix for Windows and will probably not be permanently maintained. Once the bug fix
+> is merged into the main project this fork will be abandoned.
+>
+> The original repo can be found here: https://github.com/tzellman/ember-heroicons
+>
+> The Windows bug fix PR is here: https://github.com/tzellman/ember-heroicons/pull/11
+
 [![NPM][npm-badge-img]][npm-badge-link]
 [![Build Status][build-status-img]][build-status-link]
 [![Ember Observer Score][ember-observer-badge]][ember-observer-url]
