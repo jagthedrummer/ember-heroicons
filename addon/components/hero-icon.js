@@ -1,10 +1,10 @@
 import { htmlSafe } from '@ember/template';
 import Component from '@glimmer/component';
 import { DEFAULT_TYPE, ICONS } from '../utils/heroicons';
-import Ember from 'ember';
+import { getOwner } from '@ember/owner';
 
 export default class HeroIconComponent extends Component {
-    appConfig = Ember.getOwner(this).resolveRegistration('config:environment');
+    appConfig = getOwner(this).resolveRegistration('config:environment');
 
     get type() {
         let type = this.args.type;
