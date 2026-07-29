@@ -8,6 +8,8 @@
 > The original repo can be found here: https://github.com/tzellman/ember-heroicons
 >
 > The Windows bug fix PR is here: https://github.com/tzellman/ember-heroicons/pull/11
+>
+> The `ember-get-config` fix PR is here:
 
 [![NPM][npm-badge-img]][npm-badge-link]
 [![Build Status][build-status-img]][build-status-link]
