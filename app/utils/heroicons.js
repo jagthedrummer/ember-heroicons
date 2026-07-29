@@ -1,1 +1,1 @@
-export * from 'ember-heroicons/utils/heroicons';
+export * from '@jagthedrummer/ember-heroicons/utils/heroicons';

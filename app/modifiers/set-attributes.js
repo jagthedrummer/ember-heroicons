@@ -1,1 +1,1 @@
-export { default } from 'ember-heroicons/modifiers/set-attributes';
+export { default } from '@jagthedrummer/ember-heroicons/modifiers/set-attributes';
