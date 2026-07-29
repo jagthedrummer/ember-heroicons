@@ -1,13 +1,15 @@
 import { htmlSafe } from '@ember/template';
 import Component from '@glimmer/component';
-import appConfig from 'ember-get-config';
 import { DEFAULT_TYPE, ICONS } from '../utils/heroicons';
+import Ember from 'ember';
 
 export default class HeroIconComponent extends Component {
+    appConfig = Ember.getOwner(this).resolveRegistration('config:environment');
+
     get type() {
         let type = this.args.type;
         if (!type) {
-            const config = appConfig ? appConfig['ember-heroicons'] : {};
+            const config = this.appConfig ? this.appConfig['ember-heroicons'] : {};
             type = config?.defaultType ?? DEFAULT_TYPE ?? 'outline';
         }
         return type;
